@@ -1,0 +1,20 @@
+
+
+
+ // SFC /SCANNOW  - a Windows command that scans for and repairs corrupted or missing protected system files,
+		    replacing them with correct versions from a cached copy, and is a common first step in 
+		    troubleshooting Windows issues
+
+
+// MRT - command in Command Prompt (CMD) launches the Microsoft Malicious Software Removal Tool (MSRT), a built-in Windows utility for finding and removing prevalent malware, accessible by typing mrt in the Run dialog (Win+R) or CMD and pressing Enter. You can use switches like mrt /f for a forced full scan or mrt /f /q for a silent full scan, though the graphical interface offers more options like quick, full, or custom scans. 
+
+
+
+// %TEMP% - The %temp% in a folder refers to the Temporary Files folder (Temp folder) on your computer, a system directory where applications store files they only need for a short time, like document drafts or downloaded installers, and you can access it by typing %temp% in the Run dialog (Win+R) or File Explorer address bar to view and safely delete old, unneeded files to free up space and improve performance, skipping any files Windows says are in use. 
+
+
+
+//CLEANMGR - The cleanmgr command launches the Windows Disk Cleanup utility{Source: 1, 2} from Command Prompt or Run dialog, allowing you to delete unnecessary files like temporary internet files, Recycle Bin contents, and system files to free up disk space. Running cleanmgr with elevated privileges (as an administrator) or using parameters like /sageset:n and /sagerun:n enables advanced options for automating cleanup tasks. 
+
+
+// powercfg /batteryreport - a Windows command that generates a detailed HTML report about your device's battery health, usage, and capacity history, helping you assess its degradation over time by comparing design capacity with current full charge capacity. To use it, run Command Prompt or PowerShell as an administrator, type powercfg /batteryreport, and press Enter; the report saves as an HTML file, usually in C:\Windows\system32 or your user folder, which you can open in a browser. 
